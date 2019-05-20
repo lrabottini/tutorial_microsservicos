@@ -6,4 +6,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/lrabottini/tutorial_microsservicos/tutorial_1/delivery_config/sample-config-app.yml
+          uri: https://github.com/lrabottini/tutorial_microsservicos/tutorial_1/delivery_config
