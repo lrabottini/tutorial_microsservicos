@@ -9,6 +9,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class DeliveryConfigServerApplication {
 
 	public static void main(String[] args) {
+		//comentários adicionados
 		SpringApplication.run(DeliveryConfigServerApplication.class, args);
 	}
 
