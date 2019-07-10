@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.coderef.delivery.DeliveryAuthServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.043 s <<< FAILURE! - in com.coderef.delivery.DeliveryAuthServerApplicationTests
+contextLoads(com.coderef.delivery.DeliveryAuthServerApplicationTests)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.autoconfigure.RefreshAutoConfiguration$JpaInvokerConfiguration': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'class path resource [sql/schema.sql]' is invalid: The specified resource does not exist.
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'class path resource [sql/schema.sql]' is invalid: The specified resource does not exist.
+Caused by: org.springframework.boot.context.properties.source.InvalidConfigurationPropertyValueException: Property spring.datasource.schema with value 'class path resource [sql/schema.sql]' is invalid: The specified resource does not exist.
+

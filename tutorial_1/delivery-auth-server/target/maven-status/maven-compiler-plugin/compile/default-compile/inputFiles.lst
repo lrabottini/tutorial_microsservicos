@@ -1,0 +1,12 @@
+/media/lrabottini/Arquivos/Code/Java/tutorial_microsservicos/tutorial_1/delivery-auth-server/src/main/java/com/coderef/delivery/DeliveryAuthServerApplication.java
+/media/lrabottini/Arquivos/Code/Java/tutorial_microsservicos/tutorial_1/delivery-auth-server/src/main/java/com/coderef/delivery/repository/AuthorityRepository.java
+/media/lrabottini/Arquivos/Code/Java/tutorial_microsservicos/tutorial_1/delivery-auth-server/src/main/java/com/coderef/delivery/config/AuthorizationServerConfiguration.java
+/media/lrabottini/Arquivos/Code/Java/tutorial_microsservicos/tutorial_1/delivery-auth-server/src/main/java/com/coderef/delivery/config/CorsFilterConfiguration.java
+/media/lrabottini/Arquivos/Code/Java/tutorial_microsservicos/tutorial_1/delivery-auth-server/src/main/java/com/coderef/delivery/model/Authority.java
+/media/lrabottini/Arquivos/Code/Java/tutorial_microsservicos/tutorial_1/delivery-auth-server/src/main/java/com/coderef/delivery/model/User.java
+/media/lrabottini/Arquivos/Code/Java/tutorial_microsservicos/tutorial_1/delivery-auth-server/src/main/java/com/coderef/delivery/controller/AuthController.java
+/media/lrabottini/Arquivos/Code/Java/tutorial_microsservicos/tutorial_1/delivery-auth-server/src/main/java/com/coderef/delivery/domain/Authorities.java
+/media/lrabottini/Arquivos/Code/Java/tutorial_microsservicos/tutorial_1/delivery-auth-server/src/main/java/com/coderef/delivery/repository/UserRepository.java
+/media/lrabottini/Arquivos/Code/Java/tutorial_microsservicos/tutorial_1/delivery-auth-server/src/main/java/com/coderef/delivery/service/UserDetailsService.java
+/media/lrabottini/Arquivos/Code/Java/tutorial_microsservicos/tutorial_1/delivery-auth-server/src/main/java/com/coderef/delivery/config/WebSecurityConfig.java
+/media/lrabottini/Arquivos/Code/Java/tutorial_microsservicos/tutorial_1/delivery-auth-server/src/main/java/com/coderef/delivery/config/ResourceServerConfiguration.java
