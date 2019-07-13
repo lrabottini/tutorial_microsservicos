@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DeliveryAuthServerApplication",
+            "request": "launch",
+            "mainClass": "com.coderef.delivery.DeliveryAuthServerApplication",
+            "projectName": "delivery-auth-server"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DeliveryEurekaServerApplication",
+            "request": "launch",
+            "mainClass": "com.coderef.delivery.DeliveryEurekaServerApplication",
+            "projectName": "delivery-eureka-server"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DeliveryConfigServerApplication",
             "request": "launch",
             "mainClass": "com.coderef.delivery.DeliveryConfigServerApplication",
