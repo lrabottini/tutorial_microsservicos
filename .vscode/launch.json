@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DeliveryConfigServerApplication",
+            "request": "launch",
+            "mainClass": "com.coderef.delivery.DeliveryConfigServerApplication",
+            "projectName": "delivery-config-server"
+        }
+    ]
+}
