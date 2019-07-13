@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DeliveryOrderServiceApplication",
+            "request": "launch",
+            "mainClass": "com.coderef.delivery.DeliveryOrderServiceApplication"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DeliveryAuthServerApplication",
             "request": "launch",
             "mainClass": "com.coderef.delivery.DeliveryAuthServerApplication",
