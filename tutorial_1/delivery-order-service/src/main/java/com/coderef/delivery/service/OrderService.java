@@ -2,6 +2,7 @@ package com.coderef.delivery.service;
 
 import com.coderef.delivery.model.Order;
 import com.coderef.delivery.repository.OrderRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
@@ -17,7 +18,7 @@ public class OrderService {
     }
 
     public Order findById(Integer id){
-        return orderRepository.findOne(id);
+        return orderRepository.findById(id).orElse(null);
     }
 
     public Iterable<Order> findAll(){
@@ -25,6 +26,6 @@ public class OrderService {
     }
 
     public void delete(Integer id) {
-        orderRepository.delete(id);
+        orderRepository.deleteById(id);
     }
 }

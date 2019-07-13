@@ -12,5 +12,4 @@ public class DeliveryOrderServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DeliveryOrderServiceApplication.class, args);
 	}
-
 }
